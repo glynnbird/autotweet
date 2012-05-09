@@ -22,7 +22,7 @@ Then you can edit your "register.py" script, entering the consumer key and consu
 
 Visit the URL that the script outputs. Paste the PIN that the URL generates into the command-line script.
 
-Edit your "tweet.py" entering the access tokens from the Twitter website. N.B. the access tokens must be read/write tokens, otherwise they will not be able to write data to Twitter.
+Edit your "tweet.py" entering the access tokens from the Twitter website. N.B. the access tokens must be read/write tokens, otherwise they will not be able to write data to Twitter. You will have to change your application to be a read/write application, and click "Recreate access tokens" on the Twitter website.
 
 Now you can run:
 
@@ -41,3 +41,7 @@ then you can tweet from anywhere e.g.
 ```
 tweet 'hello'
 ```
+
+## Credit
+ 
+Based on http://talkfast.org/2010/05/31/twitter-from-the-command-line-in-python-using-oauth
